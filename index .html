@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Container for Product cards -->
+    <div class="container">
+
+     <!-- First Product card --> 
+    <div id="productCard1">
+        <img src="pexels-karolina-grabowska-4887213.jpg" alt="Headphones" id="productImage" />
+        <h1 id="productTitle">Pink Headphones</h1>
+        <p id="productPrice">R1,299.00</p>
+        <p id="productDescription1" class="product-description">
+          Experience high-quality sound without the background noise. Our noise cancelling headphones offer comfort and clarity for all your audio needs.
+        </p>
+        <button onclick="changeText()"  id="addToCart">Add to Cart</button>
+        <button onclick="updateStockInfo('productDescription1', 'stockInfo1', 25)" id="stockInfo1">Change color</button>
+      </div>
+
+
+<!-- Second Product card -->
+      <div id="productCard2">
+        <img src="pexels-thales13-28993704.jpg" alt="Headphones" id="productImage" />
+        <h1 id="productTitle">Blue Headphones</h1>
+        <p id="productPrice">R1,299.00</p>
+        <p id="productDescription2" class="product-description">
+          Experience high-quality sound without the background noise. Our noise cancelling headphones offer comfort and clarity for all your audio needs.
+        </p>
+        <button onclick="changeText()" id="addToCart">Add to Cart</button>
+        <button onclick="updateStockInfo('productDescription2', 'stockInfo2', 2)" id="stockInfo2">Change color</button>
+      </div>
+
+</div>
+
+
+
+    
+    </body>
+</html>
